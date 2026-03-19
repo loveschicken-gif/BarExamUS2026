@@ -1,0 +1,552 @@
+{
+  "subjectId": "civ-pro",
+  "title": "Civil Procedure",
+  "version": "draft-v1-seed",
+  "status": "draft",
+  "intendedUse": "Seed content for Codex review before canonical breakdown into subject/topic files.",
+  "notes": [
+    "This file is a draft seed and does not replace canonical content.",
+    "Each node is designed to be split later into the app's topic-based schema.",
+    "Quiz prompts are short prompts, not full multiple-choice question objects."
+  ],
+  "metadata": {
+    "coverage": [
+      "SMJ",
+      "PJ",
+      "Notice and service",
+      "Venue and transfer",
+      "Erie",
+      "Pleadings",
+      "Amendment and relation back",
+      "Joinder",
+      "Class actions",
+      "Discovery",
+      "Summary judgment",
+      "JMOL and new trial",
+      "Claim and issue preclusion",
+      "Default judgment",
+      "Appeals",
+      "Removal and remand"
+    ],
+    "jurisdiction": "U.S. Federal Civil Procedure / bar exam orientation",
+    "authoringStyle": "black-letter-first"
+  },
+  "nodes": [
+    {
+      "id": "civpro.smj.federal-question",
+      "topic": "Subject Matter Jurisdiction",
+      "subtopic": "Federal Question",
+      "title": "Federal Question Jurisdiction",
+      "blackLetterRule": "Federal district courts have subject matter jurisdiction over civil actions arising under the Constitution, laws, or treaties of the United States.",
+      "elements": [
+        "Apply the well-pleaded complaint rule.",
+        "Ask whether federal law creates the cause of action or whether the plaintiff's right to relief necessarily depends on a substantial federal issue.",
+        "Ignore federal defenses and anticipated rebuttals."
+      ],
+      "exceptions": [
+        "A federal defense does not create federal question jurisdiction.",
+        "Declaratory judgment actions still look to the coercive action that would have been brought."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Louisville & Nashville R.R. v. Mottley",
+          "proposition": "Federal question must appear on the face of the well-pleaded complaint."
+        },
+        {
+          "caseName": "Grable & Sons Metal Products, Inc. v. Darue Engineering & Manufacturing",
+          "proposition": "A state-law claim may arise under federal law when it necessarily raises a substantial and actually disputed federal issue that can be resolved without upsetting the federal-state balance."
+        }
+      ],
+      "memoryAid": "Federal question lives in the plaintiff's own claim, not in the defense.",
+      "quizPrompts": [
+        "Plaintiff sues on a state contract claim and expects a federal preemption defense. Is there federal question jurisdiction?",
+        "A quiet title claim turns on the meaning of a federal tax notice statute. What framework applies?"
+      ]
+    },
+    {
+      "id": "civpro.smj.diversity",
+      "topic": "Subject Matter Jurisdiction",
+      "subtopic": "Diversity Jurisdiction",
+      "title": "Diversity and Amount in Controversy",
+      "blackLetterRule": "Federal diversity jurisdiction exists when the amount in controversy exceeds $75,000 and there is complete diversity between opposing parties.",
+      "elements": [
+        "Determine citizenship when the complaint is filed.",
+        "For individuals, use domicile; for corporations, use every state of incorporation and the principal place of business.",
+        "Test complete diversity across all plaintiffs and all defendants.",
+        "Check whether the amount in controversy exceeds $75,000, excluding interest and costs."
+      ],
+      "exceptions": [
+        "An action fails if any plaintiff shares citizenship with any defendant.",
+        "The legal certainty test can defeat an inflated amount in controversy allegation.",
+        "The domestic relations and probate exceptions may keep some disputes out of federal court."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Hertz Corp. v. Friend",
+          "proposition": "A corporation's principal place of business is its nerve center."
+        },
+        {
+          "caseName": "Strawbridge v. Curtiss",
+          "proposition": "Complete diversity requires all plaintiffs to be diverse from all defendants."
+        }
+      ],
+      "memoryAid": "Diversity asks who the parties are and how much is truly at stake.",
+      "quizPrompts": [
+        "A corporation is incorporated in Delaware and managed from New York. Where is it a citizen?",
+        "Can one plaintiff aggregate unrelated claims against one defendant to clear the amount threshold?"
+      ]
+    },
+    {
+      "id": "civpro.pj.minimum-contacts",
+      "topic": "Personal Jurisdiction",
+      "subtopic": "Constitutional Limits",
+      "title": "Minimum Contacts and Fairness",
+      "blackLetterRule": "When no traditional basis applies, due process requires that the defendant have minimum contacts with the forum such that the exercise of jurisdiction does not offend traditional notions of fair play and substantial justice.",
+      "elements": [
+        "Identify purposeful availment or purposeful direction by the defendant.",
+        "Ask whether the claim arises out of or relates to the forum contacts for specific jurisdiction.",
+        "Evaluate fairness factors such as burden on the defendant, forum interest, plaintiff interest, and systemic efficiency."
+      ],
+      "exceptions": [
+        "Unilateral activity of the plaintiff does not create jurisdiction.",
+        "General jurisdiction is ordinarily limited to where an individual is domiciled or a corporation is at home."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "International Shoe Co. v. Washington",
+          "proposition": "Minimum contacts test for due process."
+        },
+        {
+          "caseName": "World-Wide Volkswagen Corp. v. Woodson",
+          "proposition": "Foreseeability alone is not enough without purposeful forum-related conduct."
+        },
+        {
+          "caseName": "Daimler AG v. Bauman",
+          "proposition": "General jurisdiction is limited to forums where the corporation is essentially at home."
+        }
+      ],
+      "memoryAid": "Contacts first, fairness second, and make sure the defendant created the link.",
+      "quizPrompts": [
+        "A defendant sells into the forum through targeted ads and the injury happens there. Specific or general jurisdiction?",
+        "Can a corporation be sued on any claim in every state where it does substantial sales?"
+      ]
+    },
+    {
+      "id": "civpro.notice.service",
+      "topic": "Notice and Service",
+      "subtopic": "Service of Process",
+      "title": "Constitutional Notice and Rule-Based Service",
+      "blackLetterRule": "Due process requires notice reasonably calculated under the circumstances to apprise interested parties of the action, and service must comply with the applicable rules or authorized state methods.",
+      "elements": [
+        "Check whether the method used is reasonably calculated to provide actual notice.",
+        "Confirm that service complied with Rule 4 or an authorized state-law method.",
+        "For individuals, consider personal service, suitable substitute service at the dwelling, or service on an authorized agent."
+      ],
+      "exceptions": [
+        "Actual notice alone does not cure improper service when the rule was not satisfied.",
+        "Publication alone is usually inadequate when the defendant's address is reasonably ascertainable."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Mullane v. Central Hanover Bank & Trust Co.",
+          "proposition": "Notice must be reasonably calculated to apprise interested parties."
+        },
+        {
+          "caseName": "Jones v. Flowers",
+          "proposition": "When the government learns notice failed, it may need to take additional reasonable steps if practical."
+        }
+      ],
+      "memoryAid": "Notice must be fair, and service must be valid.",
+      "quizPrompts": [
+        "The plaintiff mails notice to an old address despite knowing the new one. Sufficient?",
+        "Is actual notice enough if Rule 4 service was never properly made?"
+      ]
+    },
+    {
+      "id": "civpro.venue.transfer",
+      "topic": "Venue and Transfer",
+      "subtopic": "Proper Venue / Transfer",
+      "title": "Venue, Transfer, and Forum Non Conveniens",
+      "blackLetterRule": "Venue is proper in a district where any defendant resides if all defendants reside in the same state, where a substantial part of the events or omissions giving rise to the claim occurred, or, if neither applies, where any defendant is subject to personal jurisdiction with respect to the action; a court may transfer for convenience and in the interest of justice to a district where the case could have been brought.",
+      "elements": [
+        "Determine whether venue is proper under the federal venue statute.",
+        "If venue is improper, consider dismissal or transfer.",
+        "If venue is proper but inconvenient, apply transfer factors under Section 1404.",
+        "If the more appropriate forum is abroad or in a different sovereign system, consider forum non conveniens."
+      ],
+      "exceptions": [
+        "A valid forum-selection clause is ordinarily given controlling weight in the transfer analysis.",
+        "Transfer under Section 1404 requires a forum where the case could originally have been brought or to which all parties consent."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Atlantic Marine Construction Co. v. U.S. District Court",
+          "proposition": "Forum-selection clauses substantially alter the normal transfer analysis."
+        },
+        {
+          "caseName": "Piper Aircraft Co. v. Reyno",
+          "proposition": "Forum non conveniens may justify dismissal in favor of a more appropriate foreign forum."
+        }
+      ],
+      "memoryAid": "Venue asks where; transfer asks whether there is a better federal place.",
+      "quizPrompts": [
+        "All defendants live in Texas and the accident happened in Louisiana. Which venues are candidates?",
+        "How does a mandatory forum-selection clause affect a transfer motion?"
+      ]
+    },
+    {
+      "id": "civpro.erie",
+      "topic": "Erie Doctrine",
+      "subtopic": "State Law in Federal Court",
+      "title": "Erie and the Rules of Decision Framework",
+      "blackLetterRule": "A federal court sitting in diversity generally applies federal procedural law and state substantive law.",
+      "elements": [
+        "Ask whether a valid federal statute or Federal Rule directly governs the issue.",
+        "If so, apply the federal provision if it is valid and on point.",
+        "If not, evaluate whether ignoring state law would encourage forum shopping or produce inequitable administration of the laws.",
+        "Consider twin aims of Erie while respecting federal interests."
+      ],
+      "exceptions": [
+        "Federal courts apply federal judge-jury allocation standards even in diversity when the issue is treated as procedural in the federal system.",
+        "State substantive doctrines such as statutes of limitations and tolling rules generally apply in diversity."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Erie R.R. v. Tompkins",
+          "proposition": "There is no general federal common law in diversity."
+        },
+        {
+          "caseName": "Hanna v. Plumer",
+          "proposition": "A valid Federal Rule on point controls over conflicting state practice."
+        },
+        {
+          "caseName": "Gasperini v. Center for Humanities, Inc.",
+          "proposition": "Federal and state interests may both matter in mixed procedural-substantive settings."
+        }
+      ],
+      "memoryAid": "First ask: is there a federal rule on point? If yes, Hanna. If no, Erie balancing.",
+      "quizPrompts": [
+        "A state service rule conflicts with Rule 4. Which governs in diversity?",
+        "A state statute of limitations conflicts with judge-made federal practice. Which likely applies?"
+      ]
+    },
+    {
+      "id": "civpro.pleadings.rule8-12",
+      "topic": "Pleadings",
+      "subtopic": "Complaint and Response",
+      "title": "Rule 8, Plausibility, and Rule 12",
+      "blackLetterRule": "A pleading stating a claim must contain a short and plain statement showing entitlement to relief, and to survive a Rule 12(b)(6) motion it must plead enough factual matter to state a plausible claim.",
+      "elements": [
+        "Include jurisdictional grounds when required, a short and plain statement of the claim, and a demand for relief.",
+        "Separate factual allegations from conclusory assertions.",
+        "Apply Rule 12 timing and waiver rules for threshold defenses."
+      ],
+      "exceptions": [
+        "Fraud and mistake must be pleaded with particularity.",
+        "Some Rule 12 defenses are waived if not timely raised."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Bell Atlantic Corp. v. Twombly",
+          "proposition": "A complaint must contain enough facts to state a plausible claim for relief."
+        },
+        {
+          "caseName": "Ashcroft v. Iqbal",
+          "proposition": "Courts disregard conclusory allegations and assess plausibility from well-pleaded facts."
+        }
+      ],
+      "memoryAid": "Rule 8 is short and plain, but not empty; Rule 12 tests the pleading early.",
+      "quizPrompts": [
+        "The complaint repeats legal elements with no supporting detail. What result on a Rule 12(b)(6) motion?",
+        "Which Rule 12 defenses are lost if omitted from the first Rule 12 response?"
+      ]
+    },
+    {
+      "id": "civpro.amendment.relation-back",
+      "topic": "Pleadings",
+      "subtopic": "Amendment",
+      "title": "Amendment and Relation Back",
+      "blackLetterRule": "A party may amend once as a matter of course within the Rule 15 window; otherwise amendment requires consent or leave, which should be freely given when justice so requires, and an amendment may relate back when it arises from the same conduct, transaction, or occurrence, or satisfies the rule for changing parties.",
+      "elements": [
+        "Identify whether amendment is as of right or needs leave.",
+        "Evaluate reasons to deny leave such as undue delay, bad faith, prejudice, or futility.",
+        "For relation back, test whether the amendment concerns the same transaction or occurrence.",
+        "When adding a new defendant, confirm notice and mistake requirements within the prescribed period."
+      ],
+      "exceptions": [
+        "Adding a new claim outside limitations does not automatically relate back.",
+        "Changing defendants requires timely notice and the kind of mistake recognized by Rule 15."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Foman v. Davis",
+          "proposition": "Leave to amend should be freely given absent reasons such as undue delay, bad faith, prejudice, or futility."
+        },
+        {
+          "caseName": "Krupski v. Costa Crociere S.p.A.",
+          "proposition": "Relation back for changed defendants turns on what the new party knew or should have known about the plaintiff's mistake."
+        }
+      ],
+      "memoryAid": "Freely amend, but relation back needs the same core facts and sometimes timely notice to the new party.",
+      "quizPrompts": [
+        "A plaintiff discovers the correct corporate defendant after limitations ran. What relation-back questions matter?",
+        "Can a court deny leave solely because amendment comes later in the case?"
+      ]
+    },
+    {
+      "id": "civpro.joinder",
+      "topic": "Joinder",
+      "subtopic": "Claims and Parties",
+      "title": "Joinder of Claims and Parties",
+      "blackLetterRule": "A plaintiff may join as many claims as it has against an opposing party, and parties may be joined when the claims arise out of the same transaction or occurrence and share a common question of law or fact; some absent parties must be joined if feasible when their absence prevents complete relief or threatens their interests.",
+      "elements": [
+        "For claim joinder, note that one plaintiff may join all claims against one defendant.",
+        "For permissive party joinder, require same transaction or occurrence plus a common question.",
+        "For required joinder, ask whether the absentee is necessary and whether joinder is feasible.",
+        "If joinder is not feasible, decide whether to proceed or dismiss."
+      ],
+      "exceptions": [
+        "Joinder rules do not independently create subject matter jurisdiction.",
+        "Required joinder may fail when the absentee destroys diversity or is beyond the court's reach."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Temple v. Synthes Corp.",
+          "proposition": "Not every potentially liable joint tortfeasor is a required party under Rule 19."
+        }
+      ],
+      "memoryAid": "Join freely when claims are yours, but new parties need a factual connection and sometimes jurisdiction support.",
+      "quizPrompts": [
+        "Two plaintiffs injured in the same bus crash sue together. What joinder rule applies?",
+        "An absentee owns the disputed property and cannot be joined without destroying diversity. What comes next?"
+      ]
+    },
+    {
+      "id": "civpro.class-actions",
+      "topic": "Class Actions",
+      "subtopic": "Rule 23",
+      "title": "Class Action Requirements",
+      "blackLetterRule": "A class action requires numerosity, commonality, typicality, and adequacy, plus satisfaction of one Rule 23(b) category, and the court must rigorously analyze whether the requirements are met.",
+      "elements": [
+        "Establish numerosity, commonality, typicality, and adequacy.",
+        "Identify the appropriate Rule 23(b) category.",
+        "For damages classes under Rule 23(b)(3), show predominance and superiority and provide the required notice and opt-out opportunity."
+      ],
+      "exceptions": [
+        "A common question alone is not enough without a common answer capable of classwide resolution.",
+        "Individualized damages issues may complicate predominance but do not always defeat certification."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Wal-Mart Stores, Inc. v. Dukes",
+          "proposition": "Commonality requires a common contention capable of classwide resolution."
+        },
+        {
+          "caseName": "Amchem Products, Inc. v. Windsor",
+          "proposition": "Predominance and adequacy concerns are central in settlement and litigation classes alike."
+        }
+      ],
+      "memoryAid": "Rule 23 starts with NCTA and then asks what kind of class it is.",
+      "quizPrompts": [
+        "Thousands of identical consumer contracts use the same clause. Which certification questions matter most?",
+        "What extra findings are required for a damages class under Rule 23(b)(3)?"
+      ]
+    },
+    {
+      "id": "civpro.discovery",
+      "topic": "Discovery",
+      "subtopic": "Scope and Enforcement",
+      "title": "Discovery Scope, Proportionality, and Sanctions",
+      "blackLetterRule": "Parties may obtain discovery regarding nonprivileged matter relevant to any party's claim or defense and proportional to the needs of the case, and courts may compel discovery or impose sanctions for failures to disclose, obey orders, or preserve information.",
+      "elements": [
+        "Check relevance, privilege, and proportionality.",
+        "Remember initial disclosures and supplementation duties.",
+        "Use protective orders, motions to compel, and sanctions when necessary.",
+        "For ESI spoliation, identify prejudice and intent."
+      ],
+      "exceptions": [
+        "Work product receives qualified protection and opinion work product receives especially strong protection.",
+        "The severe ESI measures listed in Rule 37(e) generally require intent to deprive."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Hickman v. Taylor",
+          "proposition": "Work product doctrine protects materials prepared in anticipation of litigation."
+        }
+      ],
+      "memoryAid": "Discovery is broad but not boundless: relevance, privilege, proportionality, then enforcement.",
+      "quizPrompts": [
+        "A party demands massive low-value email review. What modern limit applies?",
+        "When can a court instruct the jury adversely for lost ESI?"
+      ]
+    },
+    {
+      "id": "civpro.summary-judgment",
+      "topic": "Disposition Without Trial",
+      "subtopic": "Summary Judgment",
+      "title": "Summary Judgment Standard",
+      "blackLetterRule": "Summary judgment is proper when there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law.",
+      "elements": [
+        "Identify material facts under the governing substantive law.",
+        "Ask whether the evidence permits a reasonable jury to find for the nonmovant.",
+        "View the evidence in the light most favorable to the nonmoving party.",
+        "Determine whether the movant has supported the motion with record materials or shown a failure of proof."
+      ],
+      "exceptions": [
+        "Mere metaphysical doubt or conclusory assertions do not create a genuine dispute.",
+        "The court does not weigh credibility like a jury would at trial."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Celotex Corp. v. Catrett",
+          "proposition": "A movant may point out the absence of evidence on an essential element."
+        },
+        {
+          "caseName": "Anderson v. Liberty Lobby, Inc.",
+          "proposition": "The genuine dispute inquiry asks whether a reasonable jury could return a verdict for the nonmovant."
+        }
+      ],
+      "memoryAid": "Summary judgment asks whether there is enough for a real jury issue.",
+      "quizPrompts": [
+        "The defendant shows the plaintiff has no evidence on causation. What burden shifts next?",
+        "Can a judge resolve credibility conflicts on summary judgment?"
+      ]
+    },
+    {
+      "id": "civpro.jmol-new-trial",
+      "topic": "Post-Trial Motions",
+      "subtopic": "JMOL / Renewed JMOL / New Trial",
+      "title": "Judgment as a Matter of Law and New Trial",
+      "blackLetterRule": "JMOL is proper when a reasonable jury would not have a legally sufficient evidentiary basis to find for a party; a renewed JMOL motion after verdict generally requires a pre-verdict JMOL motion, and a new trial may be granted for reasons such as verdicts against the weight of the evidence, excessive damages, or procedural unfairness.",
+      "elements": [
+        "Make JMOL before the case is submitted to the jury to preserve renewed JMOL.",
+        "For renewed JMOL, test whether the verdict lacks a legally sufficient evidentiary basis.",
+        "For new trial, evaluate whether serious error or an unjust verdict warrants another trial."
+      ],
+      "exceptions": [
+        "A party cannot normally seek renewed JMOL on a ground not fairly included in the earlier JMOL motion.",
+        "A new trial is broader than JMOL because the judge may weigh evidence more flexibly."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Unitherm Food Systems, Inc. v. Swift-Eckrich, Inc.",
+          "proposition": "Failure to preserve the required motion sequence can bar later sufficiency review."
+        }
+      ],
+      "memoryAid": "JMOL tests legal sufficiency; new trial tests whether justice requires another try.",
+      "quizPrompts": [
+        "A party waited until after the verdict to raise sufficiency for the first time. Problem?",
+        "Which motion allows the judge more room to react to an excessive damages verdict?"
+      ]
+    },
+    {
+      "id": "civpro.preclusion",
+      "topic": "Preclusion",
+      "subtopic": "Claim and Issue Preclusion",
+      "title": "Claim Preclusion and Issue Preclusion",
+      "blackLetterRule": "Claim preclusion bars later claims arising from the same transaction or occurrence after a valid final judgment on the merits between the same parties or their privies, while issue preclusion bars relitigation of an issue actually litigated and necessarily decided in a prior action.",
+      "elements": [
+        "For claim preclusion, require a valid final judgment on the merits, same claim, and same parties or privies.",
+        "For issue preclusion, require the same issue, actual litigation, actual decision, necessity to the judgment, and a fair chance to litigate.",
+        "Analyze whether nonmutual issue preclusion is permitted and fair."
+      ],
+      "exceptions": [
+        "A dismissal for lack of subject matter jurisdiction is not a judgment on the merits for claim preclusion.",
+        "Defensive nonmutual issue preclusion is more readily accepted than offensive use when fairness concerns exist."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Parklane Hosiery Co. v. Shore",
+          "proposition": "Offensive nonmutual issue preclusion may be allowed subject to fairness considerations."
+        },
+        {
+          "caseName": "Semtek International Inc. v. Lockheed Martin Corp.",
+          "proposition": "The preclusive effect of some federal judgments depends on the governing law of claim preclusion."
+        }
+      ],
+      "memoryAid": "Claim preclusion stops the whole claim; issue preclusion stops a decided point.",
+      "quizPrompts": [
+        "A plaintiff loses a negligence suit and later sues on the same accident under a different theory. Which doctrine?",
+        "Can a new defendant use a prior finding against the plaintiff defensively?"
+      ]
+    },
+    {
+      "id": "civpro.default",
+      "topic": "Default Practice",
+      "subtopic": "Entry of Default / Default Judgment",
+      "title": "Defaults and Default Judgments",
+      "blackLetterRule": "When a party fails to plead or otherwise defend, the clerk may enter default, and the court may enter default judgment subject to the applicable procedural safeguards and standards for setting it aside.",
+      "elements": [
+        "Distinguish entry of default from default judgment.",
+        "Check whether the claim is for a sum certain or requires judicial action.",
+        "For setting aside, compare the good-cause standard for entry of default with the stricter Rule 60 standards for final default judgment."
+      ],
+      "exceptions": [
+        "A defendant who has appeared may be entitled to notice before default judgment.",
+        "Defaults do not automatically establish damages when proof is still needed."
+      ],
+      "leadingCases": [],
+      "memoryAid": "Default is the notation; default judgment is the enforceable result.",
+      "quizPrompts": [
+        "What is the difference between setting aside an entry of default and setting aside a final default judgment?",
+        "Can the clerk enter default judgment in every case?"
+      ]
+    },
+    {
+      "id": "civpro.appeals",
+      "topic": "Appeals",
+      "subtopic": "Final Judgment Rule",
+      "title": "Appealability and the Final Judgment Rule",
+      "blackLetterRule": "As a general rule, appeals lie only from final judgments, subject to limited statutory and judge-made exceptions such as interlocutory orders made appealable by statute, certified orders, injunction orders, and the collateral order doctrine.",
+      "elements": [
+        "Ask whether the order ends the litigation on the merits and leaves nothing but execution.",
+        "If not final, check for an authorized exception.",
+        "Consider certification mechanisms and the special treatment of injunctions."
+      ],
+      "exceptions": [
+        "The collateral order doctrine is narrow.",
+        "Interlocutory review is exceptional, not routine."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Cohen v. Beneficial Industrial Loan Corp.",
+          "proposition": "Collateral orders may be immediately appealable when they conclusively resolve important issues separate from the merits and would be effectively unreviewable later."
+        }
+      ],
+      "memoryAid": "Appeal later, not now, unless a narrow exception opens the door.",
+      "quizPrompts": [
+        "A discovery order usually is not final. Is it immediately appealable?",
+        "Why are injunction orders treated differently from ordinary interlocutory rulings?"
+      ]
+    },
+    {
+      "id": "civpro.removal-remand",
+      "topic": "Removal and Remand",
+      "subtopic": "Federalizing a State Case",
+      "title": "Removal, Remand, and the Home-State Limit",
+      "blackLetterRule": "A defendant may remove a civil action filed in state court to federal court if the action could originally have been brought there, but removal based solely on diversity is barred when a properly joined and served defendant is a citizen of the forum state.",
+      "elements": [
+        "Ask whether the federal court would have original jurisdiction.",
+        "Require removal by a defendant, usually within the statutory time limit.",
+        "For diversity removals, check the forum defendant rule.",
+        "If a procedural defect is timely raised or jurisdiction is lacking, remand."
+      ],
+      "exceptions": [
+        "A plaintiff cannot remove its own case.",
+        "Lack of subject matter jurisdiction can require remand at any time before final judgment.",
+        "Procedural removal defects are waivable if not timely raised."
+      ],
+      "leadingCases": [
+        {
+          "caseName": "Caterpillar Inc. v. Lewis",
+          "proposition": "Certain jurisdictional defects cured before judgment may affect whether a final federal judgment stands, but removal analysis still begins with original jurisdiction requirements."
+        }
+      ],
+      "memoryAid": "Remove only if the case could have started in federal court, and watch the forum defendant trap.",
+      "quizPrompts": [
+        "A Texas defendant is sued in Texas state court by a New York plaintiff for $500,000. May the defendant remove on diversity?",
+        "Who can seek removal, and when must procedural remand objections be raised?"
+      ]
+    }
+  ]
+}
