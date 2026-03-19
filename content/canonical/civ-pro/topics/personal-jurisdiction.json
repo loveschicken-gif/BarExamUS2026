@@ -1,0 +1,98 @@
+{
+  "id": "civpro-topic-pj",
+  "subjectSlug": "civ-pro",
+  "slug": "personal-jurisdiction",
+  "title": "Personal Jurisdiction",
+  "summary": "How a court obtains power over a defendant, including traditional bases, long-arm analysis, and minimum contacts.",
+  "learningObjectives": [
+    "Separate statutory authorization from constitutional due process.",
+    "Identify when general versus specific jurisdiction applies.",
+    "Analyze purposeful availment and fairness factors."
+  ],
+  "ruleIds": [
+    "pj-traditional-bases",
+    "pj-minimum-contacts",
+    "pj-specific-vs-general"
+  ],
+  "rules": [
+    {
+      "id": "pj-traditional-bases",
+      "topicSlug": "personal-jurisdiction",
+      "title": "Traditional Bases",
+      "blackLetterLaw": "A court has personal jurisdiction when service is proper and a traditional basis applies, such as in-state service, domicile, or consent.",
+      "explanation": "Traditional Pennoyer-era bases remain valid shortcuts to personal jurisdiction even before a modern contacts analysis is necessary.",
+      "elements": [
+        "Tag jurisdiction by personal service while physically present in the forum",
+        "Domicile in the forum state",
+        "Express or implied consent, including forum-selection clauses and failure to timely object"
+      ],
+      "pitfalls": [
+        "Confusing venue with personal jurisdiction",
+        "Treating transient service as enough for entities in all circumstances"
+      ],
+      "relatedRuleIds": ["pj-minimum-contacts"]
+    },
+    {
+      "id": "pj-minimum-contacts",
+      "topicSlug": "personal-jurisdiction",
+      "title": "Minimum Contacts Framework",
+      "blackLetterLaw": "When no traditional basis applies, due process requires minimum contacts such that exercising jurisdiction does not offend traditional notions of fair play and substantial justice.",
+      "explanation": "The defendant must purposefully create a meaningful connection with the forum, and the exercise of jurisdiction must be fair.",
+      "elements": [
+        "Purposeful availment or purposeful direction toward the forum",
+        "Foreseeability of being haled into court there",
+        "Fairness factors such as burden, forum interest, plaintiff interest, and efficiency"
+      ],
+      "pitfalls": [
+        "Relying only on the plaintiff's forum contacts",
+        "Skipping the fairness analysis after finding contacts"
+      ],
+      "relatedRuleIds": ["pj-specific-vs-general"]
+    },
+    {
+      "id": "pj-specific-vs-general",
+      "topicSlug": "personal-jurisdiction",
+      "title": "Specific vs. General Jurisdiction",
+      "blackLetterLaw": "General jurisdiction allows any claim when the defendant is essentially at home in the forum, while specific jurisdiction requires a claim arising out of or relating to the defendant's forum contacts.",
+      "explanation": "General jurisdiction is broad but rare. Specific jurisdiction is narrower and claim-linked.",
+      "elements": [
+        "General jurisdiction usually where an individual is domiciled or a corporation is incorporated or has its principal place of business",
+        "Specific jurisdiction requires a nexus between the controversy and the forum contacts",
+        "The defendant's own conduct must tie the dispute to the forum"
+      ],
+      "pitfalls": [
+        "Calling a large volume of national business enough for general jurisdiction everywhere",
+        "Ignoring the claim-contact relationship for specific jurisdiction"
+      ],
+      "relatedRuleIds": ["pj-minimum-contacts"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "pj-q-1",
+      "prompt": "A defendant from State A is personally served while attending a conference in State B. The lawsuit concerns an unrelated contract dispute. What is the strongest basis for State B personal jurisdiction?",
+      "choices": [
+        { "id": "a", "text": "General jurisdiction because the defendant travels nationally" },
+        { "id": "b", "text": "Tag jurisdiction based on in-state personal service" },
+        { "id": "c", "text": "Specific jurisdiction because the plaintiff sued there" },
+        { "id": "d", "text": "No jurisdiction because the claim is unrelated to State B" }
+      ],
+      "correctChoiceId": "b",
+      "ruleIds": ["pj-traditional-bases"],
+      "rationale": "Personal service on an individual while physically present in the forum is a classic traditional basis for personal jurisdiction."
+    },
+    {
+      "id": "pj-q-2",
+      "prompt": "A manufacturer deliberately markets and ships the product at issue into the forum state, where the injury occurs. Which jurisdiction theory best fits?",
+      "choices": [
+        { "id": "a", "text": "Specific jurisdiction based on forum-directed contacts tied to the claim" },
+        { "id": "b", "text": "General jurisdiction because products entered the state" },
+        { "id": "c", "text": "No jurisdiction unless the defendant is domiciled there" },
+        { "id": "d", "text": "Jurisdiction only if the plaintiff resides there" }
+      ],
+      "correctChoiceId": "a",
+      "ruleIds": ["pj-minimum-contacts", "pj-specific-vs-general"],
+      "rationale": "Purposeful shipment and marketing into the forum tied to the injury usually support specific jurisdiction."
+    }
+  ]
+}

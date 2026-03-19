@@ -1,0 +1,98 @@
+{
+  "id": "civpro-topic-pleading",
+  "subjectSlug": "civ-pro",
+  "slug": "pleading",
+  "title": "Pleading",
+  "summary": "Pleading sets the claims and defenses in motion and frames what must be plausibly alleged and timely challenged.",
+  "learningObjectives": [
+    "Identify the minimum components of a complaint.",
+    "Apply the plausibility standard to factual allegations.",
+    "Track amendment timing and relation-back basics."
+  ],
+  "ruleIds": [
+    "pleading-rule-8",
+    "pleading-12b6",
+    "pleading-amendment"
+  ],
+  "rules": [
+    {
+      "id": "pleading-rule-8",
+      "topicSlug": "pleading",
+      "title": "Rule 8 Basics",
+      "blackLetterLaw": "A claim for relief generally requires a short and plain statement of the grounds for jurisdiction, the claim showing entitlement to relief, and a demand for judgment.",
+      "explanation": "Federal pleading is meant to be concise, but it must still give fair notice and enough factual matter to support relief.",
+      "elements": [
+        "Jurisdictional statement when required",
+        "Short and plain statement of the claim",
+        "Demand for the relief sought"
+      ],
+      "pitfalls": [
+        "Reciting legal conclusions without supporting facts",
+        "Overlooking special pleading rules for fraud or mistake"
+      ],
+      "relatedRuleIds": ["pleading-12b6"]
+    },
+    {
+      "id": "pleading-12b6",
+      "topicSlug": "pleading",
+      "title": "Plausibility and Rule 12(b)(6)",
+      "blackLetterLaw": "To survive a Rule 12(b)(6) motion, the complaint must contain enough factual matter, accepted as true, to state a plausible claim for relief.",
+      "explanation": "Courts separate factual allegations from conclusory assertions and ask whether the facts plausibly suggest liability.",
+      "elements": [
+        "Assume well-pleaded facts are true",
+        "Disregard bare legal conclusions",
+        "Ask whether the facts make relief plausible, not merely possible"
+      ],
+      "pitfalls": [
+        "Treating notice pleading as no-facts pleading",
+        "Forgetting that plausibility is context-specific"
+      ],
+      "relatedRuleIds": ["pleading-rule-8", "pleading-amendment"]
+    },
+    {
+      "id": "pleading-amendment",
+      "topicSlug": "pleading",
+      "title": "Amendments",
+      "blackLetterLaw": "A party may amend once as a matter of course within the Rule 15 timing window; otherwise amendment requires consent or leave, which should be freely given when justice so requires.",
+      "explanation": "Courts usually permit amendments absent reasons like undue delay, bad faith, repeated failure, prejudice, or futility.",
+      "elements": [
+        "One amendment as of right within the prescribed time",
+        "Later amendments by consent or leave of court",
+        "Relation back can preserve timeliness when the rule's requirements are met"
+      ],
+      "pitfalls": [
+        "Assuming any amendment automatically relates back",
+        "Ignoring prejudice to the opposing party"
+      ],
+      "relatedRuleIds": ["pleading-12b6"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "pleading-q-1",
+      "prompt": "A complaint alleges that the defendant 'acted unlawfully' but offers almost no supporting facts. The defendant moves to dismiss. Which is the best argument for dismissal?",
+      "choices": [
+        { "id": "a", "text": "The complaint fails because it lacks a jury demand" },
+        { "id": "b", "text": "The complaint is implausible because it relies on conclusory assertions" },
+        { "id": "c", "text": "The complaint must be dismissed unless every element is proven" },
+        { "id": "d", "text": "The complaint is invalid because it is short" }
+      ],
+      "correctChoiceId": "b",
+      "ruleIds": ["pleading-12b6"],
+      "rationale": "A pleading that offers labels or conclusions without enough factual matter is vulnerable under Rule 12(b)(6)."
+    },
+    {
+      "id": "pleading-q-2",
+      "prompt": "When should leave to amend generally be granted after the as-of-right period expires?",
+      "choices": [
+        { "id": "a", "text": "Never, because federal pleading is final once filed" },
+        { "id": "b", "text": "Only if the opposing party cannot object" },
+        { "id": "c", "text": "Freely when justice so requires, absent reasons like prejudice or futility" },
+        { "id": "d", "text": "Only before any motion to dismiss is filed" }
+      ],
+      "correctChoiceId": "c",
+      "ruleIds": ["pleading-amendment"],
+      "rationale": "Rule 15 reflects a liberal amendment policy, limited by concerns such as prejudice, delay, or futility."
+    }
+  ]
+}
