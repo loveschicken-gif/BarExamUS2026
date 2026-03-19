@@ -1,0 +1,64 @@
+{
+  "subject": "Civil Procedure",
+  "topics": [
+    {
+      "id": "smj",
+      "name": "Subject-Matter Jurisdiction",
+      "rules": [
+        {
+          "id": "diversity-complete",
+          "title": "Complete Diversity",
+          "summary": "Diversity jurisdiction requires complete diversity between plaintiffs and defendants at filing, plus the amount in controversy threshold."
+        },
+        {
+          "id": "supplemental-jurisdiction",
+          "title": "Supplemental Jurisdiction",
+          "summary": "Supplemental jurisdiction may extend to related claims forming part of the same case or controversy, subject to statutory limits."
+        }
+      ]
+    },
+    {
+      "id": "pj",
+      "name": "Personal Jurisdiction",
+      "rules": [
+        {
+          "id": "minimum-contacts",
+          "title": "Minimum Contacts",
+          "summary": "Specific jurisdiction requires purposeful contacts and fairness consistent with due process."
+        },
+        {
+          "id": "general-jurisdiction",
+          "title": "General Jurisdiction",
+          "summary": "General jurisdiction ordinarily exists where an individual is domiciled or a corporation is essentially at home."
+        }
+      ]
+    },
+    {
+      "id": "erie",
+      "name": "Erie Doctrine",
+      "rules": [
+        {
+          "id": "state-substantive-law",
+          "title": "State Substantive Law",
+          "summary": "A federal court sitting in diversity generally applies state substantive law and federal procedural law."
+        }
+      ]
+    },
+    {
+      "id": "preclusion",
+      "name": "Preclusion",
+      "rules": [
+        {
+          "id": "claim-preclusion",
+          "title": "Claim Preclusion",
+          "summary": "A final judgment on the merits can bar later claims arising from the same transaction against the same opposing party."
+        },
+        {
+          "id": "issue-preclusion",
+          "title": "Issue Preclusion",
+          "summary": "Issue preclusion can prevent relitigation of an issue actually litigated and necessarily decided in a prior action."
+        }
+      ]
+    }
+  ]
+}
