@@ -1,0 +1,119 @@
+[
+  {
+    "id": "minimum-contacts",
+    "subjectId": "civpro",
+    "topicId": "personal-jurisdiction",
+    "title": "Specific Personal Jurisdiction: Minimum Contacts",
+    "shortLabel": "Minimum Contacts",
+    "blackLetterRule": "A forum may exercise specific personal jurisdiction when the defendant has purposefully established minimum contacts with the forum and the exercise of jurisdiction does not offend traditional notions of fair play and substantial justice.",
+    "elements": [
+      "Identify purposeful availment or purposeful direction toward the forum.",
+      "Show the plaintiff's claim arises out of or relates to those forum contacts.",
+      "Confirm jurisdiction is constitutionally fair under the reasonableness factors."
+    ],
+    "exceptions": [
+      "Random, fortuitous, or attenuated contacts usually do not count.",
+      "A defendant's own contacts matter more than the unilateral acts of another party.",
+      "General jurisdiction requires a different analysis focused on where the defendant is essentially at home."
+    ],
+    "examTips": [
+      "Use the words purposeful availment, relatedness, and fairness in your analysis.",
+      "For intentional torts, discuss whether the defendant expressly aimed conduct at the forum.",
+      "State both sides on fairness even if contacts seem strong."
+    ],
+    "caseIds": ["international-shoe", "world-wide-volkswagen", "burger-king"],
+    "outlineRefs": ["pj-framework"]
+  },
+  {
+    "id": "tag-jurisdiction",
+    "subjectId": "civpro",
+    "topicId": "personal-jurisdiction",
+    "title": "Traditional Basis: Tag Jurisdiction",
+    "shortLabel": "Tag Jurisdiction",
+    "blackLetterRule": "A natural person who is personally served with process while voluntarily present in the forum state is ordinarily subject to personal jurisdiction there.",
+    "elements": [
+      "The defendant is a natural person.",
+      "Service occurs while the defendant is physically present in the forum.",
+      "Presence is voluntary rather than procured by fraud or force."
+    ],
+    "exceptions": [
+      "Transient presence obtained by fraud or coercion may be ineffective.",
+      "The doctrine does not transfer neatly to corporations."
+    ],
+    "examTips": [
+      "Flag tag jurisdiction early because it can end the minimum contacts analysis for an individual.",
+      "If the defendant contests fairness, note that physical service in the forum remains a classic basis."
+    ],
+    "caseIds": ["burnham"],
+    "outlineRefs": ["pj-framework"]
+  },
+  {
+    "id": "proper-venue",
+    "subjectId": "civpro",
+    "topicId": "venue-transfer",
+    "title": "Proper Venue Under 28 U.S.C. § 1391",
+    "shortLabel": "Proper Venue",
+    "blackLetterRule": "Venue is proper in a judicial district where any defendant resides if all defendants reside in the same state, where a substantial part of the events or omissions occurred, or if no district otherwise qualifies, any district where a defendant is subject to personal jurisdiction.",
+    "elements": [
+      "Check whether all defendants reside in the same state.",
+      "Identify districts where a substantial part of the events or property is located.",
+      "Use the fallback provision only when no other district is proper."
+    ],
+    "exceptions": [
+      "Special venue statutes can displace the general rule.",
+      "Improper venue is different from inconvenient venue."
+    ],
+    "examTips": [
+      "Analyze venue district by district rather than state by state.",
+      "Do not confuse personal jurisdiction with venue, even though the fallback rule references jurisdiction."
+    ],
+    "caseIds": ["atlantic-marine"],
+    "outlineRefs": ["venue-framework"]
+  },
+  {
+    "id": "transfer-1404",
+    "subjectId": "civpro",
+    "topicId": "venue-transfer",
+    "title": "Transfer for Convenience Under 28 U.S.C. § 1404",
+    "shortLabel": "Transfer § 1404",
+    "blackLetterRule": "When venue is proper, a district court may transfer the action to another district where it might have been brought, or to any district to which all parties consent, for the convenience of parties and witnesses and in the interest of justice.",
+    "elements": [
+      "The transferor court has proper venue.",
+      "The transferee forum is one where the case could originally have been brought or all parties consent.",
+      "Convenience and justice factors favor transfer."
+    ],
+    "exceptions": [
+      "If the original venue is improper, dismissal or transfer under § 1406 is the better framework.",
+      "Valid forum-selection clauses receive controlling weight in most cases."
+    ],
+    "examTips": [
+      "Separate the threshold eligibility question from the balancing of private and public interests.",
+      "Mention what substantive law follows after transfer when relevant."
+    ],
+    "caseIds": ["atlantic-marine", "van-dusen"],
+    "outlineRefs": ["venue-framework"]
+  },
+  {
+    "id": "erie-framework",
+    "subjectId": "civpro",
+    "topicId": "erie-doctrine",
+    "title": "Erie Framework for Diversity Cases",
+    "shortLabel": "Erie Framework",
+    "blackLetterRule": "A federal court sitting in diversity applies valid federal law on point, but otherwise applies state substantive law and federal procedural law while avoiding inequitable administration of the laws and forum shopping.",
+    "elements": [
+      "Ask whether a federal constitutional provision, statute, or rule directly governs and is valid.",
+      "If no federal law is on point, determine whether the state rule is substantive using outcome-determinative and twin-aims reasoning.",
+      "Consider whether important federal interests justify applying a federal judicial practice."
+    ],
+    "exceptions": [
+      "Federal Rules that satisfy the Rules Enabling Act generally control over conflicting state procedure.",
+      "The analysis differs in federal-question cases."
+    ],
+    "examTips": [
+      "Work top-down: federal directive first, then Erie policies, then balancing.",
+      "Use the phrase twin aims of Erie when discussing forum shopping and inequitable administration."
+    ],
+    "caseIds": ["erie", "hanna"],
+    "outlineRefs": ["erie-framework-outline"]
+  }
+]

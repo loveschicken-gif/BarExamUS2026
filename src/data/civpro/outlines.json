@@ -1,0 +1,35 @@
+[
+  {
+    "id": "pj-framework",
+    "subjectId": "civpro",
+    "topicId": "personal-jurisdiction",
+    "title": "Personal jurisdiction attack plan",
+    "bullets": [
+      "Start with statutory authorization, then test due process.",
+      "Identify traditional bases before moving to minimum contacts.",
+      "For specific jurisdiction, work through purposeful availment, relatedness, and fairness."
+    ]
+  },
+  {
+    "id": "venue-framework",
+    "subjectId": "civpro",
+    "topicId": "venue-transfer",
+    "title": "Venue and transfer sequence",
+    "bullets": [
+      "Ask first whether venue is proper under § 1391.",
+      "If venue is improper, think § 1406 dismissal or transfer.",
+      "If venue is proper but inconvenient, analyze § 1404 or forum non conveniens."
+    ]
+  },
+  {
+    "id": "erie-framework-outline",
+    "subjectId": "civpro",
+    "topicId": "erie-doctrine",
+    "title": "Erie issue-spotting checklist",
+    "bullets": [
+      "Identify whether the court sits in diversity or supplemental jurisdiction applying state law.",
+      "Ask whether a federal directive directly answers the question.",
+      "If not, discuss outcome determination, forum shopping, inequitable administration, and countervailing federal interests."
+    ]
+  }
+]

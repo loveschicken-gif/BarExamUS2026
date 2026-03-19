@@ -1,0 +1,18 @@
+[
+  {
+    "id": "draft-pj-1",
+    "subjectId": "civpro",
+    "topicId": "personal-jurisdiction",
+    "ruleId": "minimum-contacts",
+    "prompt": "A retailer operates only in State A but sells a product online to a State B resident through repeated targeted ads and tailored shipping terms. The resident sues in State B over that sale. Which issue is strongest for specific jurisdiction?",
+    "choices": [
+      "The retailer owns no real property in State B.",
+      "The retailer purposefully directed commercial activity toward State B and the claim arises from that contact.",
+      "The plaintiff prefers State B because witnesses live there.",
+      "The forum state has a long-arm statute extending to constitutional limits."
+    ],
+    "answerIndex": 1,
+    "explanation": "The strongest constitutional point is purposeful direction tied to the claim. The long-arm statute matters too, but the doctrinal focus is the directed forum conduct plus relatedness.",
+    "status": "draft"
+  }
+]

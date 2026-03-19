@@ -1,0 +1,122 @@
+[
+  {
+    "id": "international-shoe",
+    "subjectId": "civpro",
+    "topicId": "personal-jurisdiction",
+    "ruleIds": ["minimum-contacts"],
+    "title": "International Shoe Co. v. Washington",
+    "citation": "326 U.S. 310",
+    "courtAndYear": "U.S. Supreme Court (1945)",
+    "holding": "Due process permits jurisdiction when a defendant has minimum contacts with the forum such that maintaining the suit is consistent with fair play and substantial justice.",
+    "ruleConnection": "Foundational source for the minimum contacts framework.",
+    "takeaways": [
+      "Replaced rigid territorial concepts with a contacts-based due process analysis.",
+      "Connect continuous business activities to the fairness of litigating in the forum."
+    ]
+  },
+  {
+    "id": "world-wide-volkswagen",
+    "subjectId": "civpro",
+    "topicId": "personal-jurisdiction",
+    "ruleIds": ["minimum-contacts"],
+    "title": "World-Wide Volkswagen Corp. v. Woodson",
+    "citation": "444 U.S. 286",
+    "courtAndYear": "U.S. Supreme Court (1980)",
+    "holding": "Foreseeability alone is not enough; the defendant must purposefully avail itself of the forum.",
+    "ruleConnection": "Clarifies that unilateral consumer movement cannot create personal jurisdiction.",
+    "takeaways": [
+      "Differentiate foreseeability of product travel from purposeful targeting of the forum.",
+      "Use the fairness factors only after contacts exist."
+    ]
+  },
+  {
+    "id": "burger-king",
+    "subjectId": "civpro",
+    "topicId": "personal-jurisdiction",
+    "ruleIds": ["minimum-contacts"],
+    "title": "Burger King Corp. v. Rudzewicz",
+    "citation": "471 U.S. 462",
+    "courtAndYear": "U.S. Supreme Court (1985)",
+    "holding": "A defendant can purposefully establish minimum contacts through deliberate, ongoing contractual relations tied to the forum.",
+    "ruleConnection": "Shows how prior negotiations, contemplated future consequences, and course of dealing matter.",
+    "takeaways": [
+      "Do not rely solely on contract formation; analyze the broader relationship.",
+      "Strong contacts may shift the burden heavily onto a defendant raising fairness objections."
+    ]
+  },
+  {
+    "id": "burnham",
+    "subjectId": "civpro",
+    "topicId": "personal-jurisdiction",
+    "ruleIds": ["tag-jurisdiction"],
+    "title": "Burnham v. Superior Court",
+    "citation": "495 U.S. 604",
+    "courtAndYear": "U.S. Supreme Court (1990)",
+    "holding": "Personal service on an individual physically present in the forum is a constitutionally sufficient basis for personal jurisdiction.",
+    "ruleConnection": "Preserves transient tag jurisdiction as a traditional basis.",
+    "takeaways": [
+      "Recognize that traditional bases can coexist with modern minimum contacts doctrine.",
+      "The case is strongest when service occurs during voluntary presence."
+    ]
+  },
+  {
+    "id": "atlantic-marine",
+    "subjectId": "civpro",
+    "topicId": "venue-transfer",
+    "ruleIds": ["proper-venue", "transfer-1404"],
+    "title": "Atlantic Marine Construction Co. v. U.S. District Court",
+    "citation": "571 U.S. 49",
+    "courtAndYear": "U.S. Supreme Court (2013)",
+    "holding": "A valid forum-selection clause is generally enforced through § 1404(a) transfer, with private-interest factors weighing entirely in favor of the chosen forum.",
+    "ruleConnection": "Important both for venue framing and for convenience transfer analysis.",
+    "takeaways": [
+      "Do not call a case improperly venued merely because it violates a forum-selection clause.",
+      "Public-interest factors must be extraordinary to defeat transfer."
+    ]
+  },
+  {
+    "id": "van-dusen",
+    "subjectId": "civpro",
+    "topicId": "venue-transfer",
+    "ruleIds": ["transfer-1404"],
+    "title": "Van Dusen v. Barrack",
+    "citation": "376 U.S. 612",
+    "courtAndYear": "U.S. Supreme Court (1964)",
+    "holding": "After a defendant-initiated § 1404 transfer, the transferee court generally applies the same state law the transferor court would have applied.",
+    "ruleConnection": "Connects transfer practice to choice-of-law consequences.",
+    "takeaways": [
+      "Flag this rule whenever transfer and Erie issues overlap.",
+      "Explain that transfer should change courtroom, not governing law, in ordinary § 1404 cases."
+    ]
+  },
+  {
+    "id": "erie",
+    "subjectId": "civpro",
+    "topicId": "erie-doctrine",
+    "ruleIds": ["erie-framework"],
+    "title": "Erie Railroad Co. v. Tompkins",
+    "citation": "304 U.S. 64",
+    "courtAndYear": "U.S. Supreme Court (1938)",
+    "holding": "Federal courts sitting in diversity must apply state substantive law instead of general federal common law.",
+    "ruleConnection": "The source case for the Erie doctrine.",
+    "takeaways": [
+      "Always identify whether the case is in diversity before launching into Erie analysis.",
+      "The policy concern is discouraging forum shopping and inconsistent outcomes."
+    ]
+  },
+  {
+    "id": "hanna",
+    "subjectId": "civpro",
+    "topicId": "erie-doctrine",
+    "ruleIds": ["erie-framework"],
+    "title": "Hanna v. Plumer",
+    "citation": "380 U.S. 460",
+    "courtAndYear": "U.S. Supreme Court (1965)",
+    "holding": "When a valid Federal Rule directly conflicts with state law, the Federal Rule governs in federal court.",
+    "ruleConnection": "Supplies the modern federal-rule-first step in Erie problems.",
+    "takeaways": [
+      "Discuss the Rules Enabling Act when analyzing a Federal Rule.",
+      "Use Hanna to organize the Erie analysis before falling back to policy tests."
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "personal-jurisdiction",
+    "subjectId": "civpro",
+    "title": "Personal Jurisdiction",
+    "slug": "personal-jurisdiction",
+    "summary": "When a court may bind a defendant consistently with due process.",
+    "whyItMatters": "Bar questions repeatedly test minimum contacts, purposeful availment, and fairness balancing.",
+    "ruleIds": ["minimum-contacts", "tag-jurisdiction"]
+  },
+  {
+    "id": "venue-transfer",
+    "subjectId": "civpro",
+    "title": "Venue and Transfer",
+    "slug": "venue-transfer",
+    "summary": "Where the action may be filed and when it may be moved.",
+    "whyItMatters": "Students must distinguish proper venue from convenience transfer and forum non conveniens.",
+    "ruleIds": ["proper-venue", "transfer-1404"]
+  },
+  {
+    "id": "erie-doctrine",
+    "subjectId": "civpro",
+    "title": "Erie Doctrine",
+    "slug": "erie-doctrine",
+    "summary": "How federal courts choose between state and federal law in diversity cases.",
+    "whyItMatters": "The exam expects a step-by-step framework for conflicts between federal and state sources of law.",
+    "ruleIds": ["erie-framework"]
+  }
+]

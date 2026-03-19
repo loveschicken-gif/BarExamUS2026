@@ -1,0 +1,13 @@
+{
+  "id": "civpro",
+  "title": "Civil Procedure",
+  "shortTitle": "Civ Pro",
+  "description": "Master the core Civil Procedure rules and anchor cases most likely to control a U.S. bar exam essay or multiple-choice analysis.",
+  "examFocus": [
+    "Personal jurisdiction and notice",
+    "Venue and transfer",
+    "Erie and applicable law"
+  ],
+  "primaryCtaLabel": "Start studying",
+  "topicOrder": ["personal-jurisdiction", "venue-transfer", "erie-doctrine"]
+}
