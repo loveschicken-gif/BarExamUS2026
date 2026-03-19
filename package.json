@@ -2,24 +2,26 @@
   "name": "bar-exam-us-2026",
   "version": "0.1.0",
   "private": true,
+  "description": "Lean Civ Pro V1 bar exam study app built with Next.js App Router and JSON-driven legal content.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "validate:content": "node scripts/validate-content.mjs"
   },
   "dependencies": {
-    "next": "14.2.26",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "next": "16.0.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
   },
   "devDependencies": {
-    "@types/node": "20.17.30",
-    "@types/react": "18.3.20",
-    "@types/react-dom": "18.3.6",
-    "eslint": "8.57.1",
-    "eslint-config-next": "14.2.26",
-    "typescript": "5.8.3"
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "eslint": "9.39.1",
+    "eslint-config-next": "16.0.0",
+    "typescript": "5.9.3"
   }
 }
