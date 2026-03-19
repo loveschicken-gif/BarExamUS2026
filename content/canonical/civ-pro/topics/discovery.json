@@ -1,0 +1,99 @@
+{
+  "id": "civpro-topic-discovery",
+  "subjectSlug": "civ-pro",
+  "slug": "discovery",
+  "title": "Discovery",
+  "summary": "Discovery manages information exchange through mandatory disclosures, proportionality limits, and enforcement tools.",
+  "learningObjectives": [
+    "Define the modern scope of discovery.",
+    "Recognize proportionality limits and work-product concerns.",
+    "Identify consequences for failing to disclose or obey discovery orders."
+  ],
+  "ruleIds": [
+    "discovery-scope",
+    "discovery-initial-disclosures",
+    "discovery-sanctions"
+  ],
+  "rules": [
+    {
+      "id": "discovery-scope",
+      "topicSlug": "discovery",
+      "title": "Scope and Proportionality",
+      "blackLetterLaw": "Parties may obtain discovery regarding nonprivileged matter relevant to any party's claim or defense and proportional to the needs of the case.",
+      "explanation": "Discovery is broad but not limitless; proportionality cabins requests based on the stakes, burden, and access to information.",
+      "elements": [
+        "Relevance to a claim or defense",
+        "Nonprivileged information",
+        "Proportionality considering burden, importance, amount in controversy, and access"
+      ],
+      "pitfalls": [
+        "Equating relevance with automatic discoverability",
+        "Ignoring burden and expense objections"
+      ],
+      "relatedRuleIds": ["discovery-sanctions"]
+    },
+    {
+      "id": "discovery-initial-disclosures",
+      "topicSlug": "discovery",
+      "title": "Initial Disclosures",
+      "blackLetterLaw": "Absent exemption or stipulation, parties must provide initial disclosures identifying likely witnesses, relevant documents, damage computations, and insurance information.",
+      "explanation": "Initial disclosures front-load basic information without waiting for formal requests.",
+      "elements": [
+        "Likely discoverable witnesses",
+        "Documents and electronically stored information the party may use",
+        "Damage computation and supporting materials",
+        "Insurance agreements that may satisfy all or part of a judgment"
+      ],
+      "pitfalls": [
+        "Waiting for interrogatories before disclosing core materials",
+        "Treating damage computations as optional"
+      ],
+      "relatedRuleIds": ["discovery-sanctions"]
+    },
+    {
+      "id": "discovery-sanctions",
+      "topicSlug": "discovery",
+      "title": "Sanctions and Enforcement",
+      "blackLetterLaw": "Courts may compel discovery and impose sanctions for disclosure failures, noncompliance with discovery orders, or spoliation under the applicable rules and standards.",
+      "explanation": "Sanctions range from fees to issue sanctions or dismissal, depending on the violation and prejudice.",
+      "elements": [
+        "Motion to compel after good-faith effort when required",
+        "Potential fee shifting for unjustified resistance",
+        "Escalating sanctions for order violations or serious misconduct"
+      ],
+      "pitfalls": [
+        "Skipping required meet-and-confer steps",
+        "Assuming severe sanctions are automatic"
+      ],
+      "relatedRuleIds": ["discovery-scope", "discovery-initial-disclosures"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "discovery-q-1",
+      "prompt": "A party seeks a huge volume of marginally relevant records whose review would be extraordinarily expensive. What is the best modern limitation argument?",
+      "choices": [
+        { "id": "a", "text": "Discovery must always be allowed if any relevance exists" },
+        { "id": "b", "text": "The request fails because only admissible evidence is discoverable" },
+        { "id": "c", "text": "The request is disproportionate to the needs of the case" },
+        { "id": "d", "text": "The request is barred unless the records are public" }
+      ],
+      "correctChoiceId": "c",
+      "ruleIds": ["discovery-scope"],
+      "rationale": "Modern discovery expressly requires proportionality, not just relevance."
+    },
+    {
+      "id": "discovery-q-2",
+      "prompt": "A party ignores its initial disclosure obligations and only produces likely witness names after a court order. Which response is most likely?",
+      "choices": [
+        { "id": "a", "text": "No consequence, because disclosures are voluntary" },
+        { "id": "b", "text": "Possible sanctions or fee shifting for noncompliance" },
+        { "id": "c", "text": "Automatic dismissal with prejudice in every case" },
+        { "id": "d", "text": "Transfer to a different district" }
+      ],
+      "correctChoiceId": "b",
+      "ruleIds": ["discovery-initial-disclosures", "discovery-sanctions"],
+      "rationale": "Failure to make required disclosures can support sanctions, especially after noncompliance with a court order."
+    }
+  ]
+}

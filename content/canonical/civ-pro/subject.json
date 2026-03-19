@@ -1,0 +1,16 @@
+{
+  "slug": "civ-pro",
+  "title": "Civil Procedure",
+  "shortTitle": "Civ Pro",
+  "description": "A lean first-pass Civil Procedure study experience focused on high-yield doctrine, rule statements, and quiz-based review.",
+  "examFocus": [
+    "Personal jurisdiction and constitutional limits",
+    "Pleading standards and amendment mechanics",
+    "Discovery scope, proportionality, and disclosures"
+  ],
+  "topicOrder": [
+    "personal-jurisdiction",
+    "pleading",
+    "discovery"
+  ]
+}
