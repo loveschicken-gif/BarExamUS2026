@@ -1,0 +1,155 @@
+{
+  "subject": "Civil Procedure",
+  "questions": [
+    {
+      "id": "civpro-q1",
+      "topicId": "smj",
+      "ruleIds": ["diversity-complete"],
+      "approvalStatus": "approved",
+      "stem": "A plaintiff from State A sues a defendant from State B in federal court for $90,000. The defendant has its principal place of business in State B and is incorporated in State C. Is diversity jurisdiction satisfied?",
+      "choices": [
+        "No, because the corporation is a citizen of two states.",
+        "Yes, because complete diversity exists and the amount in controversy is met.",
+        "No, because federal question jurisdiction is required.",
+        "Yes, but only if the defendant consents."
+      ],
+      "answerIndex": 1,
+      "explanation": "A corporation is a citizen of its state of incorporation and principal place of business, but diversity is complete here because the plaintiff shares neither citizenship and the amount in controversy exceeds the threshold."
+    },
+    {
+      "id": "civpro-q2",
+      "topicId": "smj",
+      "ruleIds": ["supplemental-jurisdiction"],
+      "approvalStatus": "reviewed",
+      "stem": "A plaintiff brings a valid diversity claim in federal court and joins a related state-law claim against the same defendant for a smaller amount. What doctrine most directly supports federal adjudication of the added claim?",
+      "choices": [
+        "Removal jurisdiction",
+        "Supplemental jurisdiction",
+        "Abstention",
+        "Venue transfer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Supplemental jurisdiction can cover related claims that form part of the same case or controversy even if the additional claim would not independently satisfy the jurisdictional amount."
+    },
+    {
+      "id": "civpro-q3",
+      "topicId": "pj",
+      "ruleIds": ["minimum-contacts"],
+      "approvalStatus": "approved",
+      "stem": "A nonresident defendant regularly ships products into State X and is sued there over injuries caused by one of those products. Which fact best supports specific personal jurisdiction?",
+      "choices": [
+        "The defendant owns unrelated property in State Y.",
+        "The claim arises out of the defendant's purposeful contacts with State X.",
+        "The plaintiff prefers State X.",
+        "State X has a crowded docket."
+      ],
+      "answerIndex": 1,
+      "explanation": "Specific jurisdiction is strongest when the defendant purposefully directed conduct at the forum and the claim arises from those forum contacts."
+    },
+    {
+      "id": "civpro-q4",
+      "topicId": "pj",
+      "ruleIds": ["general-jurisdiction"],
+      "approvalStatus": "approved",
+      "stem": "A corporation is sued in a forum where it is incorporated but the claim has no connection to that forum. What is the best basis for personal jurisdiction?",
+      "choices": [
+        "Specific jurisdiction",
+        "General jurisdiction",
+        "Tag jurisdiction over the corporation's officer",
+        "Consent through venue"
+      ],
+      "answerIndex": 1,
+      "explanation": "A corporation is generally at home where it is incorporated and where it has its principal place of business, supporting general jurisdiction even for unrelated claims."
+    },
+    {
+      "id": "civpro-q5",
+      "topicId": "erie",
+      "ruleIds": ["state-substantive-law"],
+      "approvalStatus": "approved",
+      "stem": "In a diversity case, a federal court must choose between a state rule governing damages and a federal procedural rule on filing deadlines. Which pairing is most accurate?",
+      "choices": [
+        "Apply state damages law and federal filing procedure.",
+        "Apply federal law to both because the case is in federal court.",
+        "Apply state law to both because diversity is involved.",
+        "Apply whichever rule is more favorable to the plaintiff."
+      ],
+      "answerIndex": 0,
+      "explanation": "Under Erie principles, state substantive law generally governs matters like damages, while federal procedural rules govern procedural matters like filing deadlines."
+    },
+    {
+      "id": "civpro-q6",
+      "topicId": "preclusion",
+      "ruleIds": ["claim-preclusion"],
+      "approvalStatus": "reviewed",
+      "stem": "After a final judgment on the merits, a plaintiff files a second suit against the same defendant based on the same transaction. What doctrine is the strongest defense?",
+      "choices": [
+        "Issue preclusion",
+        "Claim preclusion",
+        "Supplemental jurisdiction",
+        "Forum non conveniens"
+      ],
+      "answerIndex": 1,
+      "explanation": "Claim preclusion bars later claims arising from the same transaction after a final judgment on the merits between the same opposing parties."
+    },
+    {
+      "id": "civpro-q7",
+      "topicId": "preclusion",
+      "ruleIds": ["issue-preclusion"],
+      "approvalStatus": "approved",
+      "stem": "An issue of negligence was actually litigated and necessarily decided in an earlier case. In a later case involving the same party, what doctrine may stop relitigation of that issue?",
+      "choices": [
+        "Claim preclusion",
+        "Issue preclusion",
+        "Removal",
+        "Interpleader"
+      ],
+      "answerIndex": 1,
+      "explanation": "Issue preclusion can bind a party on an issue that was actually litigated and necessarily decided in prior litigation."
+    },
+    {
+      "id": "civpro-q8",
+      "topicId": "smj",
+      "ruleIds": ["diversity-complete"],
+      "approvalStatus": "draft",
+      "stem": "A plaintiff from State A sues a defendant from State A in federal court and alleges only state-law claims for $100,000. Is diversity jurisdiction available?",
+      "choices": [
+        "Yes, because the amount in controversy is satisfied.",
+        "Yes, because supplemental jurisdiction can cure missing diversity.",
+        "No, because complete diversity is lacking.",
+        "No, unless the defendant removes."
+      ],
+      "answerIndex": 2,
+      "explanation": "Diversity jurisdiction requires complete diversity, which is absent if opposing parties share state citizenship."
+    },
+    {
+      "id": "civpro-q9",
+      "topicId": "pj",
+      "ruleIds": ["minimum-contacts"],
+      "approvalStatus": "approved",
+      "stem": "A nonresident defendant targeted online ads to State X customers and sold the product that allegedly injured the plaintiff there. Which jurisdictional concept is most directly implicated?",
+      "choices": [
+        "Specific jurisdiction based on purposeful availment",
+        "General jurisdiction based on transient presence",
+        "Claim preclusion",
+        "Supplemental jurisdiction"
+      ],
+      "answerIndex": 0,
+      "explanation": "Targeting forum customers and causing the alleged injury through those contacts points to purposeful availment supporting specific jurisdiction."
+    },
+    {
+      "id": "civpro-q10",
+      "topicId": "erie",
+      "ruleIds": ["state-substantive-law"],
+      "approvalStatus": "approved",
+      "stem": "A federal court sitting in diversity confronts a state damages cap and a federal local rule about page limits. Which source generally governs each issue?",
+      "choices": [
+        "Federal law governs both.",
+        "State law governs both.",
+        "State law governs the damages cap, and federal law governs page limits.",
+        "Whichever sovereign enacted the later rule governs both."
+      ],
+      "answerIndex": 2,
+      "explanation": "State substantive law ordinarily governs damages caps, while federal procedural rules govern litigation mechanics like page limits."
+    }
+  ]
+}

@@ -2,7 +2,6 @@
   "name": "barexamus2026",
   "version": "0.1.0",
   "private": true,
-  "description": "Lean Civ Pro V1 bar exam study app built with Next.js App Router and JSON-driven legal content.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
